@@ -1,0 +1,179 @@
+
+body
+{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+@font-face {
+    font-family:Manrope;
+    src: url(../assets/font/Manrope/Manrope-VariableFont_wght.ttf);
+}
+
+
+body::-webkit-scrollbar {
+    width: 7px;             
+    
+}
+body::-webkit-scrollbar-track {
+    background-color: #ebebeb	; 
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: #33bbf1;  
+    border-radius: 20px;     
+    border-width: 2px;
+}
+
+
+.Withdra
+{
+    color: #2f4986;
+}
+.boxrecent
+{
+    border:1px solid #ededed;
+    border-radius: 4px;
+}
+.financal
+{
+    color: #23334d;
+}
+
+.table thead th, thead, th {
+    background-color: #fafafa !important;
+    color: #787878;
+    padding: 10px;
+}
+.table > tbody > tr > td 
+{
+    padding: 10px;
+}
+.boxearning
+{
+    border:1px solid #ededed;
+    border-radius: 3px;  
+}
+.img-chartcontent
+{
+    width: 70%;
+}
+.Earning
+{
+    color: #23334d;
+    font-size:27px;
+}
+.dedailes-Earning
+{
+    color: #7a86a1;
+}
+.numearning
+{
+    color: #191919; 
+}
+.lastearning {
+    border: 1px solid #ededed;
+    border-radius: 3px;
+    max-height:430px;
+    overflow-y: auto;
+}
+
+
+.datelastearning
+{
+    color: #787878;
+    font-weight: bold;
+    font-size: 14px;
+}
+.dolarr
+{
+    background-color: #d5dbe7;  
+    border-radius: 1px;
+    color: #506799;
+    font-size: 25px;
+}
+.profit
+{
+    color: #9b9999;
+    font-size: 15px;  
+}
+.price
+{
+    color: #506699;
+    font-size: 15px;
+    font-weight: bold; 
+    
+}
+.secsidebar
+{
+    background-color: #E5E5E5;
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+}
+.text_ahref
+{
+    color: #808080;
+    text-decoration: none;
+    font-family: 'Manrope';
+
+}
+.text_ahref_logut
+{
+    color:#A65959;
+    text-decoration: none;
+    font-weight: 500;
+}
+.text-blue
+{
+    color: gold;
+}
+
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback)
+{
+    background-color: rgb(248,249,250) !important;
+}
+
+::placeholder
+{
+    color: #4C4C4C;
+}
+.input-group-text
+{
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.login
+{
+    color: #09090B;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.Welcome
+{
+    color: #71717A;
+}   
+.bg-img
+{
+    background-color: #6172F3;
+    height: 100vh;
+}
+.form-control
+{
+    background-color: #eaefff!important;
+}
+.form-label
+{
+    color: #09090B;
+    font-family: 'Manrope';
+    font-size: 20px;
+}
+.btn-sumbit
+{
+    background-color: #8098F9 !important;
+    color: white !important;
+}
+.erorr_massege
+{
+    color: red;
+}
